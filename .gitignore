@@ -1,0 +1,34 @@
+# Logs
+logs
+*.log*
+
+# Node
+node_modules
+
+# Environment
+.env
+.env.*
+
+# Output
+dist
+build
+
+# IDE
+.vscode
+.idea
+.zed
+
+# Tanstack
+.tanstack
+
+# Turbo
+.turbo
+
+# Vercel
+.vercel
+
+# Netlify
+.netlify
+
+# OS
+.DS_Store

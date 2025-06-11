@@ -1,0 +1,32 @@
+{
+	"name": "react-starter",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"analyze": "biome check",
+		"fix:analyze": "biome check --write",
+		"test": "vitest --run --bail 1"
+	},
+	"dependencies": {
+		"@tanstack/react-form": "1.12.2",
+		"@tanstack/react-query": "5.80.6",
+		"@tanstack/react-router": "1.121.0",
+		"react": "19.1.0",
+		"react-dom": "19.1.0",
+		"zod": "3.25.61"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@tanstack/react-router-devtools": "1.121.0",
+		"@tanstack/router-plugin": "1.121.1",
+		"@types/react": "19.1.8",
+		"@types/react-dom": "19.1.6",
+		"@vitejs/plugin-react": "4.5.2",
+		"typescript": "5.8.3",
+		"vite": "6.3.5",
+		"vitest": "3.2.3"
+	}
+}
