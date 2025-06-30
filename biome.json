@@ -12,7 +12,7 @@
 			"!.turbo",
 			"!.netlify",
 			"!.tanstack",
-			"!routeTree.gen.ts"
+			"!**/routeTree.gen.ts"
 		]
 	}
 }
