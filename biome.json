@@ -1,17 +1,18 @@
 {
 	"files": {
-		"ignore": [
-			"node_modules",
-			"build",
-			"dist",
-			".idea",
-			".vscode",
-			".zed",
-			".vercel",
-			".turbo",
-			".netlify",
-			".tanstack",
-			"routeTree.gen.ts"
+		"includes": [
+			"**",
+			"!node_modules",
+			"!build",
+			"!dist",
+			"!.idea",
+			"!.vscode",
+			"!.zed",
+			"!.vercel",
+			"!.turbo",
+			"!.netlify",
+			"!.tanstack",
+			"!**/routeTree.gen.ts"
 		]
 	}
 }
