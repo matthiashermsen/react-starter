@@ -11,22 +11,22 @@
 		"test": "vitest --run --bail 1"
 	},
 	"dependencies": {
-		"@tanstack/react-form": "1.12.3",
-		"@tanstack/react-query": "5.81.2",
-		"@tanstack/react-router": "1.121.34",
+		"@tanstack/react-form": "1.12.4",
+		"@tanstack/react-query": "5.81.5",
+		"@tanstack/react-router": "1.123.0",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
 		"zod": "3.25.67"
 	},
 	"devDependencies": {
-		"@biomejs/biome": "2.0.5",
-		"@tanstack/react-router-devtools": "1.121.34",
-		"@tanstack/router-plugin": "1.121.34",
+		"@biomejs/biome": "2.0.6",
+		"@tanstack/react-router-devtools": "1.123.0",
+		"@tanstack/router-plugin": "1.123.0",
 		"@types/react": "19.1.8",
 		"@types/react-dom": "19.1.6",
 		"@vitejs/plugin-react": "4.6.0",
 		"typescript": "5.8.3",
-		"vite": "6.3.5",
+		"vite": "7.0.0",
 		"vitest": "3.2.4"
 	}
 }
