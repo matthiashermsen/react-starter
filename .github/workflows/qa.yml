@@ -21,6 +21,9 @@ jobs:
       - name: Analyze code
         run: npm run analyze
 
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+
       - name: Run tests
         run: npm run test
 
