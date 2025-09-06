@@ -22,7 +22,7 @@ jobs:
         run: npm run analyze
 
       - name: Install Playwright Browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install chromium firefox --with-deps
 
       - name: Run tests
         run: npm run test
