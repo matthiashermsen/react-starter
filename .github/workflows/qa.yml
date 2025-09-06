@@ -21,11 +21,11 @@ jobs:
       - name: Analyze code
         run: npm run analyze
 
-      - name: Install Playwright Browsers
-        run: npx playwright install chromium firefox --with-deps
+      # - name: Install Playwright Browsers
+      #   run: npx playwright install chromium firefox --with-deps
 
-      - name: Run tests
-        run: npm run test
+      # - name: Run tests
+      #   run: npm run test
 
       - name: Check if application is buildable
         run: npm run build

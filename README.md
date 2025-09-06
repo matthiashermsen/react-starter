@@ -20,11 +20,12 @@ Quickly get started with a minimal React starter template!
 
 ### Checklist
 
-When you use this template, try follow the checklist to update your info properly
+When you use this template, try to follow the checklist to update your project properly
 
 - [ ] Change the `name` and `version` in [package.json](./package.json).
 - [ ] Delete the [package-lock.json](./package-lock.json) and generate a new one via `npm install`.
 - [ ] Change the `<title>` in [index.html](./index.html).
 - [ ] Change the `assignees` in [dependabot.yml](./.github/dependabot.yml).
+- [ ] Remove the comments from the test section in [qa.yml](./.github/workflows/qa.yml).
 - [ ] Change the author name in [LICENSE](./LICENSE).
 - [ ] Clean up the [README](./README.md).
