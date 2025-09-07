@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
-        run: npm install
+        run: npm ci
 
       - name: Setup Git user
         if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
