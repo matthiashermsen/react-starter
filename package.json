@@ -6,8 +6,8 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
-		"analyze": "biome ci",
-		"fix:analyze": "biome check --write",
+		"analyze": "biome ci --error-on-warnings .",
+		"fix:analyze": "biome check --write .",
 		"test": "vitest --run --bail 1 && playwright test --max-failures=1"
 	},
 	"dependencies": {
