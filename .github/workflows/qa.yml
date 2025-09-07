@@ -16,7 +16,7 @@ jobs:
           node-version-file: package.json
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Analyze code
         run: npm run analyze
