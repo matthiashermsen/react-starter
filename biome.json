@@ -12,7 +12,11 @@
 			"!.turbo",
 			"!.netlify",
 			"!.tanstack",
-			"!**/routeTree.gen.ts"
+			"!**/routeTree.gen.ts",
+			"!test-results",
+			"!playwright-report",
+			"!blob-report",
+			"!playwright/.cache"
 		]
 	}
 }
