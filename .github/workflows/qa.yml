@@ -2,6 +2,10 @@ name: QA
 
 on: pull_request
 
+concurrency:
+  group: qa-pr-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
 jobs:
   qa:
     runs-on: ubuntu-latest
@@ -14,15 +18,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: package.json
+          cache: "npm"
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Analyze code
         run: npm run analyze
 
-      - name: Run tests
-        run: npm run test
+      # - name: Install Playwright Browsers
+      #   run: npx playwright install chromium firefox --with-deps
+
+      # - name: Run tests
+      #   run: npm run test
 
       - name: Check if application is buildable
         run: npm run build

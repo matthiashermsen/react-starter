@@ -28,10 +28,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: package.json
+          cache: "npm"
 
       - name: Install dependencies
         if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}
-        run: npm install
+        run: npm ci
 
       - name: Setup Git user
         if: ${{ steps.get_next_version.outputs.hasNextVersion == 'true' }}

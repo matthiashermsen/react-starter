@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import { describe, expect, it } from "vitest";
-import { Page } from "../src/pages/Page";
+import { Page } from "../../src/pages/Page";
 
 describe("Page", () => {
 	it("should render 'React Starter'", () => {
