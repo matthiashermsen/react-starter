@@ -23,6 +23,7 @@ build
 .vscode
 .idea
 .zed
+.fleet
 
 # Tanstack
 .tanstack
