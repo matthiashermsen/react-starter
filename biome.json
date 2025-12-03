@@ -8,6 +8,7 @@
 			"!.idea",
 			"!.vscode",
 			"!.zed",
+			"!.fleet",
 			"!.vercel",
 			"!.turbo",
 			"!.netlify",
